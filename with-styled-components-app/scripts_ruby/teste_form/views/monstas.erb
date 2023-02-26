@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Suffragist</title>
+    <link href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css' rel='stylesheet' />
+  </head>
+  <body class='container'>
+  <h1><%= @titulo %></h1>
+  <form action="/monstas" method="post">
+  <input type="text" name="name" value="<%= @name_post %>">
+  <input type="text" name="name" value="<%= @desc_post %>">
+  <input type="submit">
+    </form>
+  </body>
+</html>
